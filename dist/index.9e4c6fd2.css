@@ -1,0 +1,9 @@
+:root {
+  --mainColor: red;
+}
+
+body {
+  color: var(--mainColor);
+}
+
+/*# sourceMappingURL=index.9e4c6fd2.css.map */

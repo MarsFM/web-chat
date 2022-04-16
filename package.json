@@ -1,0 +1,32 @@
+{
+  "name": "web-chat",
+  "version": "1.0.0",
+  "description": "Веб-приложения «Чат»",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "parcel index.hbs",
+    "build": "parcel build index.hbs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MarsFM/web-chat.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MarsFM/web-chat/issues"
+  },
+  "homepage": "https://github.com/MarsFM/web-chat#readme",
+  "devDependencies": {
+    "@anikin/parcel-transformer-handlebars": "^1.0.9",
+    "@parcel/transformer-postcss": "^2.4.1",
+    "autoprefixer": "^10.4.4",
+    "parcel": "^2.4.1",
+    "postcss": "^8.4.12",
+    "postcss-modules": "^4.3.1"
+  },
+  "@parcel/transformer-css": {
+    "cssModules": true
+  }
+}
