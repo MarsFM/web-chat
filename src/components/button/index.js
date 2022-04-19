@@ -1,3 +1,3 @@
-import button from './button.js';
+import {button} from './button.tmpl';
 
 export default button;
